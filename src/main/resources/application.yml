@@ -11,7 +11,7 @@ spring:
     cassandra:
       keyspace-name: main
       username: rHzmvLuWlWAByGctbCZRDHZx
-      password: jNEgIXNBvP-MAEEUDjp2W2zuh4EdCJT0DUcPpy7OfWxUhF+Y5Nk,.0PF1rpjRdQSK6kT6_Hgdu,wB78fB38AUy1K9M+9cayxd8y6MIzgNc,YoQA+lsJgrCWKn+obeE7r
+      password: <pass>
       schema-action: create_if_not_exists
       request:
         timeout: 10s
@@ -26,4 +26,4 @@ astra.db:
   id: 462a27c7-a38b-44f4-89d0-4398881d6fba-1
   region: asia-south1
   keyspace: main
-  application.token: AstraCS:rHzmvLuWlWAByGctbCZRDHZx:dbffbe535a3fa4a40b48c7b3f102cf787096815a26f5fad785ba7790e6808874
+  application.token: <token>

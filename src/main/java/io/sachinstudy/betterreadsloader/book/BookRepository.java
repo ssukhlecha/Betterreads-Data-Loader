@@ -1,2 +1,8 @@
-package io.sachinstudy.betterreadsloader.book;public interface BookRepository {
+package io.sachinstudy.betterreadsloader.book;
+
+import org.springframework.data.cassandra.repository.CassandraRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface BookRepository extends CassandraRepository<Book,String> {
 }
